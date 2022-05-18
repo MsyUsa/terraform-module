@@ -5,7 +5,9 @@ variable "ami_id" {
 variable "instance_type" {
   default = "t2.micro"
 }
-
+subnet_id = {
+  
+}
 variable "server_tag" {
     default = "app-server"
 }
